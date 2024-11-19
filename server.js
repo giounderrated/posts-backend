@@ -8,7 +8,7 @@ import cors from 'cors';
 const app = express()
 const port = 3000
 
-const connectionURL = "mongodb+srv://sergioflores735:WUa3aTg2iVzZrFuG@webdatabase.gbq59.mongodb.net/?retryWrites=true&w=majority&appName=WebDataBase"; // Change this based on your database connection
+const connectionURL = ""; // Change this based on your database connection
 
 mongoose.connect(connectionURL)
 .then(() => {
